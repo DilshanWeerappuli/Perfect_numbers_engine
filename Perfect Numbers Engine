@@ -1,0 +1,22 @@
+program perfect_numbers_engine;
+uses crt;
+var MN,T,PT,P,N:integer;
+begin
+ clrscr;
+ for N:= 1 to 50 do
+   if 0=(n-8) mod 10 or 0=(n-6) mod 10
+     then 
+      for MN:= 1 to (n-1) do
+       begin
+        if 0= N mod MN
+         T=T+MN;
+       end
+      if T=N
+       then
+        begin 
+         N=P;
+         PT=PT+1;
+         writeln(p);
+        end
+  writeln('Total of perfect numbers are:PT); 
+ end.
